@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-clone project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><img src="./Images/spotify.png" alt=""></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1> Best of NCS - No Copyright Sounds </h1>
+            <div class="songItemContainer">
+
+                <div class="songItem">
+                    <img src="./Images/cover1.jpeg" alt="1">
+                    <span class="songName"> O Sajni re </span>
+                    <span class="songlistplay"><span class="timestamp">03:09<i id="1"
+                                class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="./Images/cover2.jpeg" alt="2">
+                    <span class="songName"> O Mahi O Mahi </span>
+                    <span class="songlistplay"><span class="timestamp">03:53<i id="2"
+                                class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="./Images/cover3.jpeg" alt="3">
+                    <span class="songName"> Dekha Tenu Pehli Pehli Baar Ve </span>
+                    <span class="songlistplay"><span class="timestamp">04:41<i id="3"
+                                class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="./Images/cover4.jpeg" alt="4">
+                    <span class="songName"> Chor </span>
+                    <span class="songlistplay"><span class="timestamp">03:32<i id="4"
+                                class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="./Images/cover5.jpeg" alt="5">
+                    <span class="songName"> Gulabi Sadi </span>
+                    <span class="songlistplay"><span class="timestamp">03:45<i id="5"
+                                class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+
+        <div class="icons">
+            <!--fontawesome icon-->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterplay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+
+        <div class="songInfo">
+            <img src="gif.gif" width="42px" alt="" id="gif"><span id="masterSongName">O Sajni Re</span>
+        </div>
+        <!-- <p>Priti navale</p> -->
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/6936b6701b.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
